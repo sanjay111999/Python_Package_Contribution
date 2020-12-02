@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: python-data-structures-sanjay
+Version: 0.0.2
+Summary: Python Package of datastructures inbuilt
+Home-page: https://code.swecha.org/SANJAY/python_package_contirbution
+Author: Sanjay
+Author-email: vsanjaychowdary1999@gmail.com
+License: UNKNOWN
+Description: https://docs.python.org/3/tutorial/modules.html#packages
+        
+        https://packaging.python.org/guides/distributing-packages-using-setuptools/
+        
+        
+        from LinkedList import SinglyLinkedList
+        
+        Representation of node	
+        
+        node.data
+        
+        node.next
+        ll = SinglyLinkedList()
+        
+        ll.add(1)
+        
+        ll.add(2,0) #add(data,pos=None) it adds particular node at pos=0.
+        
+        ll.add(3)  #it appends node to linkedlist by default.
+        
+        ll.remove(2) #removes node with particular data
+        
+        ll.pop()  #remove and returns node at particular position from the linkedlist or by default last element
+        
+        ll.len() #returns length of the linkedlist
+        
+        ll.getNode(1) #returns reference of the first occurance of node with given data.
+        
+        
+        print(ll) #prints the linkedlist
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
