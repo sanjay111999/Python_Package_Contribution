@@ -118,27 +118,11 @@ class AVL_Tree(object):
 
 
 # Driver program to test above function 
-myTree = AVL_Tree([(i+1)*10 for i in range(6)]) 
-'''root = None
-
-root = myTree.insert(root, 10) 
-root = myTree.insert(root, 20) 
-root = myTree.insert(root, 30) 
-root = myTree.insert(root, 40) 
-root = myTree.insert(root, 50) 
-root = myTree.insert(root, 25) '''
-
-"""The constructed AVL Tree would be 
-			30 
-		/ \ 
-		20 40 
-		/ \	 \ 
-	10 25 50"""
-
+# myTree = AVL_Tree([(i+1)*10 for i in range(6)])
 # Preorder Traversal 
-print("Preorder traversal of the", 
-	"constructed AVL tree is") 
-#myTree.preOrder() 
-print() 
 
-# This code is contributed by Ajitesh Pathak 
+# print("Preorder traversal of the", "constructed AVL tree is") 
+# myTree.preOrder(myTree.root) 
+# print() 
+
+# This code is contributed by Sai Sanjay
